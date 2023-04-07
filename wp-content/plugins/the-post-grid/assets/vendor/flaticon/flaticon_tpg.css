@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "flaticon_tpg";
+    src: url("./flaticon_tpg.ttf?ae0cc379a2804d18e17a26f691f91d4d") format("truetype"),
+url("./flaticon_tpg.woff?ae0cc379a2804d18e17a26f691f91d4d") format("woff"),
+url("./flaticon_tpg.woff2?ae0cc379a2804d18e17a26f691f91d4d") format("woff2"),
+url("./flaticon_tpg.eot?ae0cc379a2804d18e17a26f691f91d4d#iefix") format("embedded-opentype"),
+url("./flaticon_tpg.svg?ae0cc379a2804d18e17a26f691f91d4d#flaticon_tpg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_tpg !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-user:before {
+    content: "\f101";
+}
+.flaticon-calendar:before {
+    content: "\f102";
+}
+.flaticon-tag:before {
+    content: "\f103";
+}
+.flaticon-folder:before {
+    content: "\f104";
+}
+.flaticon-chat:before {
+    content: "\f105";
+}
+.flaticon-chat-1:before {
+    content: "\f106";
+}
+.flaticon-view:before {
+    content: "\f107";
+}
